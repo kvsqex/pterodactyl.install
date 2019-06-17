@@ -33,10 +33,10 @@ PTEROQ.install - авто-установщик панели Pterodactyl.io
 
 Запуск установки панели:
 
-`bash <(curl -s https://raw.githubusercontent.com/MrKaKisen/pterodactyl-installer/master/install-panel.sh)`
+`bash <(curl -s https://raw.githubusercontent.com/kvsqex/pterodactyl.install/master/install-panel.sh)`
 
 Запуск установки daemon:
 
-`bash <(curl -s https://raw.githubusercontent.com/MrKaKisen/pterodactyl-installer/master/install-daemon.sh)`
+`bash <(curl -s https://raw.githubusercontent.com/kvsqex/pterodactyl.install/master/install-daemon.sh)`
 
 *[ ! ] Для запуска скрипта нужно иметь root доступ.*
