@@ -10,7 +10,7 @@ PTEROQ.install - авто-установщик панели Pterodactyl.io
 
 |      Система      | Версия  | Поддержка nginx    | Поддержка Apache |
 | ----------------- | ------- | ------------------ | ---------------- |
-| CentOS            | 7       | :red_circle: Soon* | :red_circle:     |
+| CentOS            | 7       | :red_circle:       | :red_circle:     |
 | Ubuntu            | 14.04   | :red_circle:       | :red_circle:     |
 |                   | 16.04   | :white_check_mark: | :red_circle:     |
 |                   | 18.04   | :white_check_mark: | :red_circle:     |
