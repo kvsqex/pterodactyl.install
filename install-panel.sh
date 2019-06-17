@@ -421,14 +421,10 @@ function main {
 
   check_os_comp
 
-  echo "* [1] - nginx"
-
-  echo ""
-
-  echo -n "* Выбранный сервер для установки панели: "
+  echo -n "* Продолжить установку панели? (y/n) "
   read WEBSERVER_INPUT
 
-  if [ "$WEBSERVER_INPUT" == "1" ]; then
+  if [ "$WEBSERVER_INPUT" == "y" ]; then
     WEBSERVER="nginx"
   else
     # exit
