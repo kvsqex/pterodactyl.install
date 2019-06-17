@@ -234,7 +234,7 @@ function perform_install {
 
 function main {
   print_brake 42
-  echo "* Устаовочный скрипт Pterodactyl.io"
+  echo "* Установочный скрипт Pterodactyl.io"
   echo "* Обнаружение операционной системы."
   OS=$(detect_distro);
   OS_VERSION=$(detect_os_version);
@@ -243,10 +243,9 @@ function main {
 
   check_os_comp
 
-  echo "* Установщик установил Docker и всенеобходимые зависимости для daemon"
-  echo "* а также сам демон. Но пока необходимо создать узел"
-  echo "* в панели, а затем поместите конфигурацию на узел после чего"
-  echo "* установка закончится. Узнайте больше здесь:"
+  echo "* Установщик установит Docker и все необходимые зависимости для daemon"
+  echo "* а также сам daemon."
+  echo "* Больше информации здесь:"
   echo "* https://pterodactyl.io/daemon/installing.html#configure-daemon"
   print_brake 42
   echo -n "* Продолжить установку? (y/n): "

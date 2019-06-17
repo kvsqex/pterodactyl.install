@@ -412,7 +412,7 @@ function perform_install {
 
 function main {
   print_brake 40
-  echo "* Устаовочный скрипт Pterodactyl.io"
+  echo "* Установочный скрипт Pterodactyl.io"
   echo "* Обнаружение операционной системы."
   OS=$(detect_distro);
   OS_VERSION=$(detect_os_version)
